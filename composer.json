@@ -1,0 +1,19 @@
+{
+  "name": "bailun/sdk_for_unit",
+  "description": "这是一个单元测试的示例项目",
+  "type": "1",
+  "license": "MIT",
+  "minimum-stability": "dev",
+  "require": {
+    "php": "^7.1"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^7.0"
+  },
+  "autoload": {
+    "files": [],
+    "psr-4": {
+      "Blin\\": "src/blin/"
+    }
+  }
+}
